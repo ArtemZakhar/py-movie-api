@@ -10,3 +10,4 @@ class Movie(Model):
     title = CharField(max_length=255)
     description = TextField()
     duration = IntegerField()
+
